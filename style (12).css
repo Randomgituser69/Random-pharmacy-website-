@@ -1,0 +1,93 @@
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+p {
+  text-wrap: pretty;
+}
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+}
+
+#root, #__next {
+  isolation: isolate;
+}
+/* CSS Styles */
+:root {
+  --light-blue: #DEE2FE;
+  --blue: #3834E5;
+  --cyan: #79D2C4;
+  --idk: #484848; 
+}
+* {
+  font-family: 'Basic Sans', sans-serif;
+}
+body {
+  background-color: var(--light-blue); 
+  padding: 20px 0;
+  font-size: 3.125rem;
+}
+nav {
+  background-color: var(--blue);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-between;
+}
+main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 15px;
+}
+
+.img {
+  background-color: var(--cyan);
+}
+h1 {
+  font-weight: 700;
+  color: var(--blue);
+}
+p {
+  color: var(--idk);
+}
+button {
+  border-radius: 25px;
+  padding: 0.5rem;
+  border: 1px solid var(--blue); 
+  color: white;
+  text-transform: uppercase;
+  background-color: var(--cyan);
+}
