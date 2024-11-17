@@ -51,10 +51,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 body {
   background-color: var(--light-blue); 
-  padding: 20px 0;
-  font-size: 3.125rem;
+  font-size: 1rem;
 }
 nav {
+  margin-top: 1em;
   background-color: var(--blue);
   color: white;
   display: flex;
@@ -70,18 +70,26 @@ ul {
 .content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding: 15px;
 }
 
-picture {
+.nnn {
   background-color: var(--cyan);
 }
+.nnn img {
+  width: 300px; 
+  height: 300px;
+}
 h1 {
+  width: 400px; 
+  height: 400px;
   font-weight: 700;
   color: var(--blue);
 }
 p {
   color: var(--idk);
+}
+.text {
+  padding: 20px;
 }
 button {
   border-radius: 25px;
