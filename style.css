@@ -142,8 +142,10 @@ textarea:not([rows]) {
   font-family: "Basic Sans", sans-serif;
 }
 body {
-  font-size: 1rem;
+  font-size: 1.5rem;
   background-color: var(--light-blue);
+  margin: 15px 0;
+  margin-bottom: 0;
 }
 .wrapper {
   /* Menu Bar */
@@ -161,7 +163,7 @@ ul {
   justify-content: space-between;
 }
 li {
-  padding: 10px;
+  padding: 1px 10px;
 }
 .content {
   display: grid;
@@ -169,14 +171,17 @@ li {
 }
 .nnn {
   display: block;
-  align-items: center;
+  align-content: center;
+  padding: 20px;
   background-color: var(--cyan);
 }
 .nnn img {
+  display: inline-block;
   width: 100px;
   height: 400px;
 }
 h1 {
+  font-size: 4rem;
   font-weight: 700;
   color: var(--blue);
 }
@@ -196,6 +201,11 @@ button {
   color: white;
   text-transform: uppercase;
   background-color: var(--cyan);
+}
+.wrapper img {
+  width: 150px;
+  height: 90px;
+  padding: 15px;
 }
 /*
 .logo {
