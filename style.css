@@ -142,8 +142,9 @@ textarea:not([rows]) {
   font-family: "Basic Sans", sans-serif;
 }
 body {
-  font-size: 1.5rem;
-  background-color: var(--light-blue);
+  background-image: url('Background.jpeg');
+  background-repeat: no-repeat;
+  font-size: 12pt;
   margin: 15px 0;
   margin-bottom: 0;
 }
@@ -168,13 +169,12 @@ li {
 .content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-}
+} /*
 .nnn {
   display: block;
   align-content: center;
   padding: 20px;
-  background-color: var(--cyan);
-}
+} */
 .nnn img {
   display: inline-block;
   width: 100px;
