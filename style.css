@@ -142,10 +142,12 @@ textarea:not([rows]) {
   font-family: "Basic Sans", sans-serif;
 }
 body {
-  background-image: url('Background (1).png');
+  background-color: var(--light-blue);
+ /* background-image: url('Background (1).png');
   background-repeat: no-repeat;
   background-size: cover;
-  font-size: 12pt;
+  */
+  font-size: 1rem;
   margin: 15px 0;
   margin-bottom: 0;
 }
@@ -170,17 +172,19 @@ li {
 .content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-} /*
+} 
 .nnn {
   display: block;
   align-content: center;
   padding: 20px;
-} */
+  background-color: var(--cyan);
+} 
 .nnn img {
   display: block;
   width: 400px;
-  height: 500px;
+  height: 515px;
   padding: 15px;
+  padding-left: 25px;
   justify-content: end;
 }
 h1 {
@@ -217,9 +221,9 @@ button {
   display: flex;
   flex-direction: row;
   justify-content: end;
-  gap: 8px;
+  gap: 12px;
   padding: 15px;
-  font-size: 1.9rem;
+  font-size: 1.5rem;
 }
 i {
   color: var(--blue);
